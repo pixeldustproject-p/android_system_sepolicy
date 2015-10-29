@@ -798,6 +798,8 @@ userdebug_or_eng(`
 # UsbDeviceManager uses /dev/usb-ffs
 allow system_server functionfs:dir search;
 allow system_server functionfs:file rw_file_perms;
+allow system_server edgegesture_service:service_manager add;
+allow system_server edgegesture_service:service_manager find;
 
 ###
 ### Neverallow rules

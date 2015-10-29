@@ -157,6 +157,7 @@
 (typeattributeset dhcp_prop_26_0 (dhcp_prop))
 (typeattributeset diskstats_service_26_0 (diskstats_service))
 (typeattributeset display_service_26_0 (display_service))
+(typeattributeset edgegesture_service_26_0 (edgegesture_service))
 (typeattributeset dm_device_26_0 (dm_device))
 (typeattributeset dnsmasq_26_0 (dnsmasq))
 (typeattributeset dnsmasq_exec_26_0 (dnsmasq_exec))
