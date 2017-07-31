@@ -630,6 +630,7 @@ allow system_server pocket_service:service_manager find;
 allow system_server radio_service:service_manager find;
 allow system_server stats_service:service_manager find;
 allow system_server storaged_service:service_manager find;
+allow system_server substratum_service:service_manager find;
 allow system_server surfaceflinger_service:service_manager find;
 allow system_server vold_service:service_manager find;
 allow system_server wificond_service:service_manager find;
