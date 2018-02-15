@@ -102,7 +102,8 @@ type vndk_sp_file, vendor_file_type, file_type;
 type vendor_framework_file, vendor_file_type, file_type;
 # Default type for everything in /vendor/overlay
 type vendor_overlay_file, vendor_file_type, file_type;
-
+# Default type for everything in /data/system/theme
+type theme_data_file, file_type, data_file_type;
 # Speedup access for trusted applications to the runtime event tags
 type runtime_event_log_tags_file, file_type;
 # Type for /system/bin/logcat.
@@ -315,9 +316,6 @@ type hwservice_contexts_file, file_type;
 
 # vndservice_contexts file
 type vndservice_contexts_file, file_type;
-
-# Themes
-type theme_data_file, file_type, data_file_type, core_data_file_type;
 
 # Allow files to be created in their appropriate filesystems.
 allow fs_type self:filesystem associate;
