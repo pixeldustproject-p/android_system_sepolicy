@@ -65,6 +65,7 @@ type country_detector_service, app_api_service, ephemeral_app_api_service, syste
 # with EMMA_INSTRUMENT=true. We should consider locking this down in the future.
 type coverage_service, system_server_service, service_manager_type;
 type cpuinfo_service, system_api_service, system_server_service, service_manager_type;
+type custom_font_service, app_api_service, system_server_service, service_manager_type;
 type dbinfo_service, system_api_service, system_server_service, service_manager_type;
 type device_policy_service, app_api_service, system_server_service, service_manager_type;
 type deviceidle_service, app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
